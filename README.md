@@ -9,6 +9,7 @@
 - Marcelin
 - Pablo
 - Willian
+---
 **Front-end - Responsável:** Eduarda Araujo
 ---
 ## Descrição
