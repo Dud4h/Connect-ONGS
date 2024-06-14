@@ -10,8 +10,6 @@
 - Pablo
 - Willian
 ---
-**Front-end - Responsável:** Eduarda Araujo
----
 ## Descrição
 
 Este projeto é uma landing page para o jogo CONNECT ONGS, desenvolvido como parte do Desafio 04 do Programa Inova Trilhas. O objetivo da landing page é fornecer uma interface amigável e informativa para atrair e engajar usuários interessados no jogo, que conecta ONGs de diversas áreas com potenciais voluntários e apoiadores.
