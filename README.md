@@ -37,11 +37,3 @@ O projeto está organizado da seguinte forma:
 |   |-- logo.png
 |   |-- background.jpg
 ```
-
-## Contato
-
-Para qualquer dúvida ou sugestão, entre em contato com a responsável pelo front-end:
-
-- **Eduarda Araujo**
-- E-mail: duda.ara037@gmail.com
-
