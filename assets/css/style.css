@@ -1,0 +1,18 @@
+.cadastrar-se{
+    font-size: 2rem; /* Tamanho da fonte */
+    margin: 0; /* Remove margens */
+    font-family: Arial, sans-serif; /* Define a fonte Arial como fonte de título */
+}
+
+.selecione {
+    font-size: 1rem; /* Tamanho da fonte */
+    margin: 20px 0; /* Margens superior e inferior */
+    font-family: Arial, sans-serif; /* Define a fonte Arial como fonte de parágrafo */
+}
+
+.coracao {
+    max-height: 500px; /* Define a altura máxima */
+    object-fit: cover; /* Faz com que a imagem cubra a área designada */
+    right: 40%; /* Distância da borda direita */
+    top: 900%; /* Distância da borda superior */
+}
