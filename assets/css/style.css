@@ -1,18 +1,97 @@
-.cadastrar-se{
-    font-size: 2rem; /* Tamanho da fonte */
-    margin: 0; /* Remove margens */
-    font-family: Arial, sans-serif; /* Define a fonte Arial como fonte de título */
-}
+@import url('/assets/css/variaveis.css');
 
-.selecione {
-    font-size: 1rem; /* Tamanho da fonte */
-    margin: 20px 0; /* Margens superior e inferior */
-    font-family: Arial, sans-serif; /* Define a fonte Arial como fonte de parágrafo */
-}
-
-.coracao {
-    max-height: 500px; /* Define a altura máxima */
-    object-fit: cover; /* Faz com que a imagem cubra a área designada */
-    right: 40%; /* Distância da borda direita */
-    top: 900%; /* Distância da borda superior */
+@media (max-width: 430px) and (max-height: 932px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: var(--font-padrao);
+    }
+    
+    .container {
+        background-color: var(--cor-fundo);
+        width: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    h1 {
+        margin-top: 0;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    .avatar-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    
+    .avatar {
+        margin-right: 20px;
+    }
+    
+    .avatar img {
+        width: 100px;
+        height: 350px;
+        flex-shrink: 0;
+    }
+    
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .options button {
+        background-color: #fff;
+        border: none;
+        padding: 8px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .botao {
+        width: 207px;
+        height: 49px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+    }
+    
+    .gender {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .gender-btn {
+        background-color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+    
+    .save-btn {
+        background-color: var(--cor-botao);
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 200px;   
+        height: 40px;
+        flex-shrink: 0;
+    }
 }
